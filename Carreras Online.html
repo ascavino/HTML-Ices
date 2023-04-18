@@ -1,60 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Universidad de Palermo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Conoce nuestras Carreras online </h1>
     <header>
-        <nav>
-            <ul><li><a href="index.html"> Inicio</a></li></ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Universidad de Palermo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Carreras Online.html">Carreras Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MasInformacion.html">Más Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Inscripcion.html">Inscripción</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
-
-    <article>
-        <section>
+    <div class="container-fluid bg-info">
+        <h1 class="d-flex justify-content-around">Conoce nuestras Carreras online: </h1>
+    </div>
+    <div class="d-flex justify-content-around">
+        <div>
             <h2>Facultad de Negocios</h2>
-            <ul><li><a href="MBA - Maestria en Direccion de Empresas">MBA - Maestria en Direccion de Empresas</a></li></ul>
-            <ul><li><a href="Contador Publico"> Contador Publico</a></li></ul>
-            <ul><li><a href="Licenciatura en Administracion">Licenciatura en Administracion</a></li></ul>
-            <ul><li><a href="Licenciatura en Comercio Internacional"> Licenciatura en Comercio Internacional </a></li></ul>
-            <ul><li><a href="Licenciatura en Management: Analytics"> Licenciatura en Management: Analytics </a></li></ul>
-            <ul><li><a href="Licenciatura en Marketing"> Licenciatura en Marketing </a></li></ul>
-            <ul><li><a href="Licenciatura en Recuersos Humanos"> Licenciatura en Recuersos Humanos </a></li></ul>
-        </section>
-    </article>
-
-    <article>
-        <section>
+            <ul>
+                <li style="list-style-type: none"><a href="MBA - Maestria en Direccion de Empresas">MBA - Maestria en
+                        Direccion de Empresas</a></li>
+                <li style="list-style-type: none"><a href="Contador Publico"> Contador Publico</a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Administracion">Licenciatura en
+                        Administracion</a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Comercio Internacional"> Licenciatura en
+                        Comercio Internacional </a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Management: Analytics"> Licenciatura en
+                        Management: Analytics </a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Marketing"> Licenciatura en Marketing </a>
+                </li>
+                <li style="list-style-type: none"><a href="Licenciatura en Recuersos Humanos"> Licenciatura en
+                        Recuersos Humanos </a></li>
+            </ul>
+        </div>
+        <div>
             <h2>Facultad de Derecho</h2>
-            <ul><li><a href="Abogacia"> Abogacia </a></li></ul>
-            <ul><li><a href="Diplomatura de Postgrado en Derecho"> Diplomatura de Postgrado en Derecho </a></li></ul>
-            <ul><li><a href="Diplomatura de Posgrado en Derecho de Familia"> Diplomatura de Posgrado en Derecho de Familia </a></li></ul>
-            <ul><li><a href="Diplomatura de Posgrado en Derecho Penal"> Diplomatura de Posgrado en Derecho Penal </a></li></ul>
-        </section>
-    </article>
-
-    <article>
-        <section>
+            <ul>
+                <li style="list-style-type: none"><a href="Abogacia"> Abogacia </a></li>
+                <li style="list-style-type: none"><a href="Diplomatura de Postgrado en Derecho"> Diplomatura de
+                        Postgrado en Derecho </a></li>
+                <li style="list-style-type: none"><a href="Diplomatura de Posgrado en Derecho de Familia"> Diplomatura
+                        de Posgrado en Derecho de
+                        Familia </a></li>
+                <li style="list-style-type: none"><a href="Diplomatura de Posgrado en Derecho Penal"> Diplomatura de
+                        Posgrado en Derecho Penal </a>
+                </li>
+            </ul>
+        </div>
+        <div>
             <h2>Facultad de Ingenieria</h2>
-            <ul><li><a href="Analista Universitario en Sistemas"> Analista Universitario en Sistemas </a></li></ul>
-            <ul><li><a href="Ingenieria en Inteligencia Artificial"> Ingenieria en Inteligencia Artificial </a></li></ul>
-            <ul><li><a href="Licenciatura en Ciberseguridad"> Licenciatura en Ciberseguridad </a></li></ul>
-            <ul><li><a href="Licenciatura en Redes y Comunicacion de Datos"> Licenciatura en Redes y Comunicacion de Datos </a></li></ul>
-            <ul><li><a href="Licenciatura en Tecnologia de la Informacion"> Licenciatura en Tecnologia de la Informacion </a></li></ul>
-            <ul><li><a href="Maestria en Tecnologia de la Informacion"> Maestria en Tecnologia de la Informacion </a></li></ul>
-            <ul><li><a href="Licenciatura en Tecnologia de la Informacion"> Licenciatura en Tecnologia de la Informacion </a></li></ul>
-        </section>
-    </article>
-
-
-
-    <h4>Copyright - Todos los derechos reservados</h4>
-
+            <ul>
+                <li style="list-style-type: none"><a href="Analista Universitario en Sistemas"> Analista Universitario
+                        en Sistemas </a></li>
+                <li style="list-style-type: none"><a href="Ingenieria en Inteligencia Artificial"> Ingenieria en
+                        Inteligencia Artificial </a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Ciberseguridad"> Licenciatura en
+                        Ciberseguridad </a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Redes y Comunicacion de Datos">
+                        Licenciatura en Redes y Comunicacion de Datos </a></li>
+                <li style="list-style-type: none"><a href="Licenciatura en Tecnologia de la Informacion"> Licenciatura
+                        en Tecnologia de la Informacion</a></li>
+                <li style="list-style-type: none"><a href="Maestria en Tecnologia de la Informacion"> Maestria en
+                        Tecnologia de la Informacion </a>
+                </li style="list-style-type: none">
+                <li style="list-style-type: none"><a href="Licenciatura en Tecnologia de la Informacion"> Licenciatura
+                        en Tecnologia de la Informacion
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Copyright - Todos los derechos reservados.</span>
+        </div>
+    </footer>
 </body>
+
 </html>

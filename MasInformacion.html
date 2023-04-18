@@ -1,53 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Universidad de Palermo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
-    <h1>Mas informacion</h1>
     <header>
-        <nav>
-            <ul><li><a href="index.html"> Inicio</a></li></ul>
-            <ul><li> <a href="MasInformacion.html"> Mas informacion</a></li></ul>
-            <ul><li> <a href="Carreras Online.html"> Carreras Online</a></li></ul>
-            <ul><li> <a href="Contacto.html"> Contacto</a></li></ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Universidad de Palermo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Carreras Online.html">Carreras Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="MasInformacion.html">Más Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Inscripcion.html">Inscripción</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <article>
-        <section>
-            <h2>Conoce mas sobre nuestras carreras</h2>
-            <p>Completa el formulario y recibiras inmediatamente informacion sobre la carrera, el plan de estudios, los aranceles y la expericencia de estudiar en Palermo</p>
-        </section>
+        <div class="d-flex justify-content-around bg-info">
+            <div class="d-block justify-content-around">
+                <h2 class="">Conoce mas sobre nuestras carreras:</h2><br>
+                <p class="">Completa el formulario y recibiras inmediatamente informacion
+                    sobre
+                    la carrera,<br> el plan de estudios, los
+                    aranceles y la expericencia de estudiar en Palermo</p>
+            </div>
+            <div class="d-block justify-content-around">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputNombre1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputNombre1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputApellido1" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="exampleInputApellido1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputNacionalidad1" class="form-label">Nacionalidad</label>
+                        <input type="text" class="form-control" id="exampleInputNacionalidad1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputTelefono1" class="form-label">Telefono</label>
+                        <input type="tel" class="form-control" id="exampleInputTelefono1">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Quiero mas informacion</button>
+                </form>
+            </div>
+        </div>
     </article>
-    <article>
-        <section>
-            <form>
-                <p>Nombre*</p>
-                <input type ="text">
-                <p>Apellido*</p>
-                <input type ="text">
-                <p>Nacionalidad*</p>
-                <input type ="Text">
-                <p>Email*</p>
-                <input type ="email">
-                <p>Telefono*</p>
-                <input type ="number">
-                <br>
-                <br>
-                <input type ="button" value = "Quiero mas informacion"> 
-            </form>
-            <h6>Todos los campos deben ser rellenados correctamente</h6>
-        </section>
-    </article>
-
-
-
-
-    <h4>Copyright - Todos los derechos reservados</h4>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">Copyright - Todos los derechos reservados.</span>
+        </div>
+    </footer>
 </body>
+
 </html>
